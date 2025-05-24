@@ -2,7 +2,7 @@
 
 Extrae la app Pivaa con la utilidad apktool (apktool d aplicación.apk)
 
-## Paso 1
+## Paso 1 descarga pivaa.apk
 
 Lo primero que hacemos será descargarnos la apk con el comando `apktool -d pivaa.apk`.
 
@@ -32,7 +32,8 @@ Abrimos `AndroidManifest.xml.` y podemos ver los permisos que tiene entre los qu
 - Acceso a la cámara
 - Acceso a la grabación de audio
 
-Paso 3 Levantar MobSF con Docker
+## Paso 3  Levantar MobSF con Docker
+
 
 Ejecutamos el contenedor docker de  MobSF, ejecutando el siguiente comando:
 
@@ -61,7 +62,7 @@ Tambien dentro del dashboard de `Mobsf` podemos consultar en la menú lateral, c
 
 ![](imagenes/imagen7.png)
 
-## información de permisos dentro de Mobsf
+## Información de permisos dentro de Mobsf
 
 También podemos ver los permisos dentro de `Mobsf` en el menú lateral, en `Permissions`.
 
